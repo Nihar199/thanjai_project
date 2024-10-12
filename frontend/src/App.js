@@ -16,7 +16,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <header> Data Generated </header>
+        <header> Data Generated here</header>
         <hr></hr>
         {this.state.details.map((output, id)=> (
           <div key ={id}> 
